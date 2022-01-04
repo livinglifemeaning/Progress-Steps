@@ -11,16 +11,16 @@ let percentage = 25;
 
 const changeBackground = () =>{
     if(counter === 1){
-    image.src = '/images/intention.png'; 
+    image.src = 'images/intention.png'; 
     desc.innerHTML = "intention" 
 } else if(counter===2) {
-    image.src = "/images/face.png"; 
+    image.src = "images/face.png"; 
     desc.innerHTML = "wash the face"; 
 } else if(counter === 3) {
-    image.src = "/images/arms.png"; 
+    image.src = "images/arms.png"; 
     desc.innerHTML = "wash arms up to and including elbows"; 
 } else if(counter === 4) {
-    image.src = "/images/head.png"; 
+    image.src = "images/head.png"; 
     desc.innerHTML = "wipe a portion of head"; 
 } 
 
